@@ -8,7 +8,7 @@ use Spatie\LaravelPackageTools\PackageServiceProvider;
 class SkeletonServiceProvider extends PackageServiceProvider
 {
     public static string $name = 'filament-hcaptcha';
-    
+
     public function configurePackage(Package $package): void
     {
         /*

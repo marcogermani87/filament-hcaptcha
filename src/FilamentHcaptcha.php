@@ -3,7 +3,6 @@
 namespace MarcoGermani87\FilamentHcaptcha;
 
 use Filament\Panel;
-use Filament\Contracts\Plugin;
 
 class FilamentHcaptcha
 {
@@ -14,7 +13,7 @@ class FilamentHcaptcha
 
     public function register(Panel $panel): void
     {
-        
+
     }
 
     public function boot(Panel $panel): void
