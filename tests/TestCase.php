@@ -3,8 +3,8 @@
 namespace MarcoGermani87\FilamentHcaptcha\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use MarcoGermani87\FilamentHcaptcha\FilamentHcaptchaServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
