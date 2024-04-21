@@ -1,13 +1,14 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace MarcoGermani87\FilamentHcaptcha;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
 
 class SkeletonServiceProvider extends PackageServiceProvider
 {
+    public static string $name = 'filament-hcaptcha';
+    
     public function configurePackage(Package $package): void
     {
         /*
@@ -16,10 +17,9 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->name('filament-hcaptcha')
+            ->hasConfigFile('filament-hcaptcha')
+            ->hasTranslations()
+            ->hasViews();
     }
 }
