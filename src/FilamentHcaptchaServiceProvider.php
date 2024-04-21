@@ -5,7 +5,7 @@ namespace MarcoGermani87\FilamentHcaptcha;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class FilamentHcaptchaServiceProvider extends PackageServiceProvider
 {
     public static string $name = 'filament-hcaptcha';
 
