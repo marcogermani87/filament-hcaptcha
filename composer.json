@@ -1,13 +1,13 @@
 {
-    "name": "marcogermani87/filament-hcatpcha",
+    "name": "marcogermani87/filament-hcaptcha",
     "description": "A package to easily include HCaptcha in Filament",
     "keywords": [
         "marcogermani87",
         "laravel",
         "filament",
-        "filament-hcatpcha"
+        "filament-hcaptcha"
     ],
-    "homepage": "https://github.com/marcogermani87/filament-hcatpcha",
+    "homepage": "https://github.com/marcogermani87/filament-hcaptcha",
     "license": "MIT",
     "authors": [
         {
