@@ -1,16 +1,16 @@
 <?php
 
-namespace VendorName\Skeleton\Facades;
+namespace MarcoGermani87\FilamentHcaptcha\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \VendorName\Skeleton\Skeleton
+ * @see \MarcoGermani87\FilamentHcaptcha\Skeleton
  */
-class Skeleton extends Facade
+class FilamentHcaptcha extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
-        return \VendorName\Skeleton\Skeleton::class;
+        return \MarcoGermani87\FilamentHcaptcha\FilamentHcaptcha::class;
     }
 }
