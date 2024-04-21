@@ -9,6 +9,10 @@
         "hcaptcha"
     ],
     "homepage": "https://github.com/marcogermani87/filament-hcaptcha",
+    "support": {
+        "issues": "https://github.com/marcogermani87/filament-hcaptcha/issues",
+        "source": "https://github.com/marcogermani87/filament-hcaptcha"
+    },
     "license": "MIT",
     "authors": [
         {
