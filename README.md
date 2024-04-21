@@ -10,6 +10,13 @@ A package to easily include HCaptcha in [Filament](https://filamentphp.com).
 
 This project is based on [RVxLab/hcaptcha](https://github.com/RVxLab/hcaptcha) package.
 
+## Version Compatibility
+
+| Plugin  | Filament | Laravel | PHP |
+| ------------- | ------------- | ------------- | -------------|
+| 0.x  | 3.x  | 10.x | 8.x |
+| 0.x  | 3.x  | 11.x | 8.2 \| 8.3 |
+
 ## Installation
 
 You can install the package via composer:
