@@ -27,23 +27,22 @@ You can install the package via composer:
 composer require marcogermani87/filament-hcaptcha
 ```
 
-You can publish the config file with:
+### Configuration
 
-```bash
-php artisan vendor:publish --tag="filament-hcaptcha-config"
+Add `NOCAPTCHA_SECRET` and `NOCAPTCHA_SITEKEY` in **.env** file :
+
 ```
-
-This is the contents of the published config file:
-
-```php
-return [
-];
+HCAPTCHA_SECRET="secret-key"
+HCAPTCHA_SITEKEY="site-key"
 ```
+(You can obtain them from [here](https://dashboard.hcaptcha.com/sites))
 
 ## Usage
 
 ```php
-->plugin(new \MarcoGermani87\FilamentHcaptcha\FilamentHcaptcha::make())
+use \MarcoGermani87\FilamentHcaptcha\Forms\Components\Captcha;
+
+Captcha::make('captcha')
 ```
 
 ## Testing
