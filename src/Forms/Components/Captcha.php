@@ -2,8 +2,8 @@
 
 namespace MarcoGermani87\FilamentHcaptcha\Forms\Components;
 
-use Filament\Forms\Components\Field;
 use Filament\Forms\Components\Concerns;
+use Filament\Forms\Components\Field;
 use Filament\Support\Concerns\HasExtraAlpineAttributes;
 
 class Captcha extends Field
