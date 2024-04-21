@@ -1,4 +1,4 @@
-# marcogermani87/filament-hcaptcha
+# filament-hcaptcha
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/marcogermani87/filament-hcaptcha.svg?style=flat-square)](https://packagist.org/packages/marcogermani87/filament-hcaptcha)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/marcogermani87/filament-hcaptcha/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/marcogermani87/filament-hcaptcha/actions?query=workflow%3Arun-tests+branch%3Amain)
