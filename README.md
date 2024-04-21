@@ -1,4 +1,6 @@
-# filament-hcaptcha
+<p class="filament-hidden">
+<img src="https://banners.beyondco.de/Filament%20HCaptcha.png?theme=light&packageManager=composer+require&packageName=marcogermani87%2Ffilament-hcaptcha&pattern=architect&style=style_2&description=Easy+HCaptcha+integrations+for+Filament&md=1&showWatermark=0&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" class="filament-hidden">
+</p>
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/marcogermani87/filament-hcaptcha.svg?style=flat-square)](https://packagist.org/packages/marcogermani87/filament-hcaptcha)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/marcogermani87/filament-hcaptcha/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/marcogermani87/filament-hcaptcha/actions?query=workflow%3Arun-tests+branch%3Amain)
